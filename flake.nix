@@ -57,6 +57,8 @@
               cargo-binutils
               rustfilt
               rubyPackages.elftools
+              openocd
+              gdb
             ];
 
             env = {

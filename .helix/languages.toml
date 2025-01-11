@@ -1,0 +1,14 @@
+[language-server.rust-analyzer.config.diagnostics]
+disabled = ["unlinked-file"]
+
+[language-server.rust-analyzer.config.cargo]
+target = "aarch64-unknown-none-softfloat"
+features = ["bsp_rpi3"]
+
+[language-server.rust-analyzer.config.checkOnSave]
+allTargets = false
+extraArgs = ["--bins"]
+
+[language-server.rust-analyzer.config.lens]
+debug = false
+run = false
