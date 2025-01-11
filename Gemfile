@@ -7,9 +7,9 @@ gem 'elftools'
 
 group :uart do
     gem 'ruby-progressbar'
-    gem 'serialport'
+    gem 'serialport' # , git: 'https://github.com/logicog/ruby-serialport'
 end
 
-group :development do
-    gem 'rubocop', '>= 1.38.0', require: false
-end
+# group :development do
+#     gem 'rubocop', '>= 1.38.0', require: false
+# end
